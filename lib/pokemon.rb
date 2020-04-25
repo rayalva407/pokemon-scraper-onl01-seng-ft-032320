@@ -20,7 +20,7 @@ class Pokemon
     pokemon = db.execute("SELECT * FROM pokemon WHERE id = ?", id).flatten
     name = pokemon[1]
     type = pokemon[2]
-    
+    new_pokemon = Pokemon.new
     
   end
   
