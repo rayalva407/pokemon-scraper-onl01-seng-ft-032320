@@ -17,7 +17,7 @@ class Pokemon
   end
   
   def self.find(id, db)
-      
+      w3
   end
   
 end
