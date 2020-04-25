@@ -16,4 +16,6 @@ class Pokemon
     db.execute(sql, name, type)
   end
   
+  def self.
+  
 end
